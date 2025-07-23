@@ -140,3 +140,5 @@ vite.config.ts.timestamp-*
 
 #cypress
 cypress/screenshots
+cypress/reports
+

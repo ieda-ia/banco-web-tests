@@ -13,7 +13,7 @@ describe('Transferencias', () => {
 
     it('Deve apresentar Erro quando tentar transferir mais que 5 mil sem o token', () =>{
         // Act    
-        cy.realizarTransferencia('Maria', 'João', '5000.01')
+        cy.realizarTransferencia('Maria', 'João', '6000')
 
         //Assert
         cy.verificarMensagensNoToast('Saldo insuficiente para realizar a transferência.')
